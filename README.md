@@ -1,5 +1,6 @@
 ## Smart and Secured Online Voting System using Blockchain  
 # Installing necessary softwares:  
+<pre>
 Step 1 : Download and install Visual Studio Code  
 Step 2 : Download and install Ganache.  
 Step 3 : Download, install and setup Node.js.  
@@ -8,7 +9,9 @@ Step 3 : Open the command prompt and select any one directory amd run the follow
 Step 4 :  Open Visual Studio Code and install the following extensions.  
 						1. Dart  
 						2. Solidity  
+</pre>
 # Running the Project:  
+<pre>
 Step 1 : Download the source code.  
 Step 2 : Go to the MongoDB’s official wesite by clickcing https://www.mongodb.com/ and then click start free. You can either sign up by filling out your details or you can choose sign up with google or sign in if you already have an account. After signing in, click on ‘Build a Database’ and choose M0(FREE) configuration and then enter the name for your cluster and then hit on create.  
 Step 3 : Then, the Security Quickstart page will appear. Choose Username and Password as the authenticate method and then enter the username and password for creating  a new user, note down these username and password and then hit on create user.  
@@ -55,6 +58,7 @@ Step 11 : Go to the following path ‘../evoting/lib/src/repository’ and open 
 		const String baseURL = "http://<IP address>:<Port number>/api/v1";  
 	<IP address> : Find your network IPv4 address by giving ‘ipconfig’ command in the command prompt and put it here.  
 	<Port number> : Put the port number on which your backend server is running.  
+Step 12 :Go to the following path '../evoting/Middleware/Utils/evoring-utils.js' and open the file. Copy the contract address from ganache and replace it with given contract address.
 Step 12 : Open the command prompt and change its directory to the folder containing the source code and change its directory as ‘../evoting/Middleware’ and run the following command.  
 		npm run start  
 Step 13 : Open Terminal in VS Code and change the directory to ‘../evoting’ and run the following command.  
@@ -66,3 +70,4 @@ Step 16 : To run the application in the emulator, set up an emulator and start t
 		flutter run  
 And the application will be executed in the emulator.  
     
+</pre>
