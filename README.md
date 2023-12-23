@@ -59,14 +59,14 @@ Step 11 : Go to the following path ‘../evoting/lib/src/repository’ and open 
 	<IP address> : Find your network IPv4 address by giving ‘ipconfig’ command in the command prompt and put it here.  
 	<Port number> : Put the port number on which your backend server is running.  
 Step 12 :Go to the following path '../evoting/Middleware/Utils/evoring-utils.js' and open the file. Copy the contract address from ganache and replace it with given contract address.
-Step 12 : Open the command prompt and change its directory to the folder containing the source code and change its directory as ‘../evoting/Middleware’ and run the following command.  
+Step 13 : Open the command prompt and change its directory to the folder containing the source code and change its directory as ‘../evoting/Middleware’ and run the following command.  
 		npm run start  
-Step 13 : Open Terminal in VS Code and change the directory to ‘../evoting’ and run the following command.  
+Step 14 : Open Terminal in VS Code and change the directory to ‘../evoting’ and run the following command.  
 		flutter pub get  
-Step 14 : Then run the following command.  
+Step 15 : Then run the following command.  
 		flutter run  
-Step 15 : Choose any device ( Chrome is preferred) and the application will be executed successfully.  
-Step 16 : To run the application in the emulator, set up an emulator and start the emulator in VS Code and run the following command.  
+Step 16 : Choose any device ( Chrome is preferred) and the application will be executed successfully.  
+Step 17 : To run the application in the emulator, set up an emulator and start the emulator in VS Code and run the following command.  
 		flutter run  
 And the application will be executed in the emulator.  
     
